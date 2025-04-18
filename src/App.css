@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #000000cb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #000000cb;
+}
+
+.title__cep {
+  color: #000000;
+  margin-bottom: 1em;
+}
+
+.container {
+  background-color: #3e4c69;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 40vw;
+  border: none;
+  border-radius: 5px;
+  gap: 1em;
+}
+
+.input__cep {
+  background-color: #2f3b52d2;
+  width: 90%;
+  height: 2em;
+  border-radius: 5px;
+  border: none;
+  padding: 1em;
+  font-size: 0.6em;
+  color: #000000;
+}
+
+.list__endereco {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin: 0 auto 0 0.5em;
+}
